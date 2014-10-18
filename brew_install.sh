@@ -51,6 +51,9 @@ sphinx
 sqlite
 tmux
 rcm
+libiconv
+libxml2
+mysql
 )
 
 # having problems with vim for some reason
