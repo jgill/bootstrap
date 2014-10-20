@@ -16,6 +16,8 @@ apps=(
   quicklook-json
   skype
   gitx
+  openoffice
+  diffmerge
 )
 
 echo "installing apps..."
