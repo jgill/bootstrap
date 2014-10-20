@@ -7,7 +7,6 @@ apps=(
   appcleaner
   firefox
   thunderbird
-  twitter
   vagrant
   iterm2
   qlprettypatch
