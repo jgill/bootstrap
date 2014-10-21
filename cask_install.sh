@@ -18,6 +18,7 @@ apps=(
   gitx
   openoffice
   diffmerge
+  textwrangler
 )
 
 echo "installing apps..."
