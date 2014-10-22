@@ -59,9 +59,6 @@ vim
 python
 )
 
-# having problems with vim for some reason
-# vim
-
 echo "installing binaries"
 brew install ${binaries[@]}
 
