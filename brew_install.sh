@@ -7,6 +7,7 @@ fi
 
 # Update homebrew recipes
 brew update
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
@@ -63,3 +64,6 @@ python
 
 echo "installing binaries"
 brew install ${binaries[@]}
+
+echo "linking apps"
+brew linkapps
