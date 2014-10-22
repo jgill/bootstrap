@@ -54,6 +54,8 @@ rcm
 libiconv
 libxml2
 mysql
+vim
+python
 )
 
 # having problems with vim for some reason
