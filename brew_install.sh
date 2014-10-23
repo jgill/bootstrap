@@ -30,6 +30,7 @@ git
 ack
 ctags
 readline
+lcdf-typetools
 tree
 reattach-to-user-namespace
 gnu-sed
