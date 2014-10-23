@@ -26,6 +26,7 @@ apps=(
   openoffice
   diffmerge
   textwrangler
+  adobe-reader
 )
 
 for i in ${apps[@]}; do
