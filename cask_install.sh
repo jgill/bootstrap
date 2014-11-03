@@ -27,6 +27,7 @@ apps=(
   diffmerge
   textwrangler
   adobe-reader
+  gimp
 )
 
 for i in ${apps[@]}; do
