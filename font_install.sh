@@ -11,6 +11,7 @@ fonts=(
   font-inconsolata
   font-anonymous-pro
   font-charter
+  font-fira-sans
 )
 
 echo "installing fonts..."
