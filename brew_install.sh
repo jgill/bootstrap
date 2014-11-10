@@ -49,7 +49,6 @@ p7zip
 pcre
 qt
 pyqt
-sphinx
 sqlite
 tmux
 rcm
@@ -62,6 +61,7 @@ python
 
 echo "installing binaries"
 brew install ${binaries[@]}
+brew install sphinx --mysql
 
 echo "linking apps"
 brew linkapps
