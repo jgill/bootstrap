@@ -28,6 +28,7 @@ apps=(
   textwrangler
   adobe-reader
   gimp
+  sequel-pro
 )
 
 for i in ${apps[@]}; do
