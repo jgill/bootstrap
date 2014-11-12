@@ -47,6 +47,7 @@ nginx
 node
 p7zip
 pcre
+octave
 qt
 pyqt
 sqlite
@@ -60,7 +61,7 @@ python
 )
 
 echo "installing binaries"
-brew install ${binaries[@]}
+brew install ${binaries[@]} --without-docs
 brew install sphinx --mysql
 
 echo "linking apps"
