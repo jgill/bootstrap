@@ -20,7 +20,7 @@ brew install bash
 
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
-brew install homebrew/dupes/grep
+brew install grep
 
 brew tap homebrew/science
 brew tap thoughtbot/formulae
@@ -34,6 +34,7 @@ lcdf-typetools
 tree
 reattach-to-user-namespace
 gnu-sed
+gnu-split
 graphicsmagick
 ec2-api-tools
 elixir
@@ -43,6 +44,8 @@ gdbm
 rbenv
 ruby-build
 ghc
+cabal-install
+gmp
 nginx
 node
 p7zip

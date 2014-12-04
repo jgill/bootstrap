@@ -29,6 +29,7 @@ apps=(
   adobe-reader
   gimp
   sequel-pro
+  chefdk
 )
 
 for i in ${apps[@]}; do
