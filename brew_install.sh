@@ -37,7 +37,6 @@ lcdf-typetools
 tree
 reattach-to-user-namespace
 gnu-sed
-gnu-split
 graphicsmagick
 ec2-api-tools
 elixir
@@ -63,7 +62,7 @@ libxml2
 mysql
 vim
 python
-gfortran
+saltstack
 gnuplot
 )
 
