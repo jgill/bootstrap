@@ -5,6 +5,9 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+
+export FC="/usr/local/bin/gfortran"
+
 # Update homebrew recipes
 brew update
 brew upgrade
@@ -50,7 +53,6 @@ nginx
 node
 p7zip
 pcre
-octave
 qt
 pyqt
 sqlite
@@ -61,11 +63,14 @@ libxml2
 mysql
 vim
 python
+gfortran
+gnuplot
 )
 
 echo "installing binaries"
 brew install ${binaries[@]} --without-docs
 brew install sphinx --mysql
+brew install octave --without-docs --default-fortran-flags
 
 echo "linking apps"
 brew linkapps
