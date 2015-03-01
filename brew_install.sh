@@ -64,6 +64,7 @@ vim
 python
 saltstack
 gnuplot
+gnupg
 )
 
 echo "installing binaries"

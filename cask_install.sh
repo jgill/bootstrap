@@ -30,6 +30,7 @@ apps=(
   gimp
   sequel-pro
   chefdk
+  java
 )
 
 for i in ${apps[@]}; do
