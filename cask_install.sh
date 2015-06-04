@@ -31,6 +31,7 @@ apps=(
   sequel-pro
   chefdk
   java
+  transmission
 )
 
 for i in ${apps[@]}; do
