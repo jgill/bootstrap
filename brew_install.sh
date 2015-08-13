@@ -65,6 +65,9 @@ python
 saltstack
 gnuplot
 gnupg
+sdl2
+libogg
+libvorbis
 )
 
 echo "installing binaries"

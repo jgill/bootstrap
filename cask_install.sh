@@ -32,6 +32,9 @@ apps=(
   chefdk
   java
   transmission
+  xquartz
+  pharo
+  elm-platform
 )
 
 for i in ${apps[@]}; do
