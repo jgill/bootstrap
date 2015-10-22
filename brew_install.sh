@@ -27,6 +27,7 @@ brew install grep
 
 brew tap homebrew/science
 brew tap thoughtbot/formulae
+brew tap homebrew/x11
 
 binaries=(
 git
@@ -66,8 +67,10 @@ saltstack
 gnuplot
 gnupg
 sdl2
+openblas
 libogg
 libvorbis
+mit-scheme
 )
 
 echo "installing binaries"

@@ -35,6 +35,8 @@ apps=(
   xquartz
   pharo
   elm-platform
+  inkscape
+  tunnelblick
 )
 
 for i in ${apps[@]}; do
