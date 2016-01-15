@@ -55,6 +55,8 @@ p7zip
 pcre
 qt
 pyqt
+gtk
+pygtk
 sqlite
 tmux
 rcm
@@ -71,6 +73,7 @@ openblas
 libogg
 libvorbis
 mit-scheme
+graphviz
 )
 
 echo "installing binaries"
