@@ -28,6 +28,7 @@ brew install grep
 brew tap homebrew/science
 brew tap thoughtbot/formulae
 brew tap homebrew/x11
+brew tap homebrew/services
 
 binaries=(
 git
