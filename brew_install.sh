@@ -31,6 +31,7 @@ brew tap homebrew/x11
 brew tap homebrew/services
 
 binaries=(
+clamav
 git
 ack
 ctags
@@ -45,6 +46,7 @@ elixir
 erlang
 gd
 gdbm
+go
 rbenv
 ruby-build
 ghc
@@ -84,3 +86,6 @@ brew install octave --without-docs --default-fortran-flags
 
 echo "linking apps"
 brew linkapps
+
+echo "cleaning up"
+brew cleanup
