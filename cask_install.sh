@@ -37,6 +37,8 @@ apps=(
   elm-platform
   inkscape
   tunnelblick
+  mactex
+  texmaker
 )
 
 for i in ${apps[@]}; do
