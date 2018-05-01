@@ -10,8 +10,6 @@ fi
 apps=(
   alfred
   google-chrome
-  qlcolorcode
-  appcleaner
   firefox
   thunderbird
   vagrant
@@ -19,26 +17,17 @@ apps=(
   qlprettypatch
   virtualbox
   qlstephen
-  vlc
   quicklook-json
-  skype
-  gitx
   openoffice
   diffmerge
   textwrangler
   adobe-reader
-  gimp
   sequel-pro
-  chefdk
   java
-  transmission
   xquartz
-  pharo
   elm-platform
-  inkscape
   tunnelblick
-  mactex
-  texmaker
+  aptible
 )
 
 for i in ${apps[@]}; do

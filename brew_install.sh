@@ -32,6 +32,7 @@ brew tap homebrew/services
 
 binaries=(
 clamav
+wget
 git
 ack
 ctags
@@ -46,13 +47,10 @@ elixir
 erlang
 gd
 gdbm
-go
 rbenv
 ruby-build
 ghc
-cabal-install
 gmp
-nginx
 node
 p7zip
 pcre
@@ -64,25 +62,23 @@ sqlite
 tmux
 rcm
 libiconv
-libxml2
 mysql
 vim
 python
-saltstack
 gnuplot
 gnupg
 sdl2
 openblas
 libogg
 libvorbis
-mit-scheme
 graphviz
+r
 )
 
 echo "installing binaries"
 brew install ${binaries[@]} --without-docs
 brew install sphinx --mysql
-brew install octave --without-docs --default-fortran-flags
+#brew install octave --without-docs --default-fortran-flags
 
 echo "linking apps"
 brew linkapps
