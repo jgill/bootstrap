@@ -22,12 +22,9 @@ brew install findutils
 brew install bash
 
 # Install more recent versions of some OS X tools
-brew tap homebrew/dupes
 brew install grep
 
-brew tap homebrew/science
 brew tap thoughtbot/formulae
-brew tap homebrew/x11
 brew tap homebrew/services
 
 binaries=(
@@ -73,15 +70,13 @@ libogg
 libvorbis
 graphviz
 r
+yarn
 )
 
 echo "installing binaries"
 brew install ${binaries[@]} --without-docs
-brew install sphinx --mysql
+brew install sphinx --with-mysql
 #brew install octave --without-docs --default-fortran-flags
-
-echo "linking apps"
-brew linkapps
 
 echo "cleaning up"
 brew cleanup
