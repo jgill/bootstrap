@@ -26,7 +26,7 @@ apps=(
   java
   xquartz
   elm-platform
-  tunnelblick
+  tunnelbear
   aptible
 )
 
